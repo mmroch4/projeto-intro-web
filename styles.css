@@ -1,0 +1,100 @@
+:root {
+  --element-background: gainsboro;
+  --app-background: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background: var(--app-background);
+
+  font-family: ubuntu, system-ui;
+}
+
+header,
+footer,
+main,
+#players-container {
+  display: flex;
+}
+
+header,
+footer {
+  flex-direction: row;
+  align-items: center;
+
+  background: var(--element-background);
+
+  padding: 1rem 2rem;
+}
+
+footer {
+  justify-content: center;
+}
+
+main,
+#players-container {
+  width: 100%;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  padding: 1rem 2rem;
+
+  gap: 2rem;
+}
+
+#players-container {
+  gap: 1rem;
+}
+
+.player {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 2rem;
+
+  background: var(--element-background);
+
+  padding: 2rem;
+}
+
+.player:hover {
+  background: lightgray;
+}
+
+.player .player-image-container {
+  width: 200px;
+  height: 200px;
+}
+
+.player .player-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1rem;
+}
+
+form input {
+  padding: 0.25rem 0.5rem;
+
+  font-size: 1.25rem;
+}

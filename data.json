@@ -1,0 +1,25 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Neymar Junior",
+      "age": 32,
+      "height": "178",
+      "image": "neymar.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Cristiano Ronaldo",
+      "age": 28,
+      "height": "181",
+      "image": "ronaldo.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Lionel Messi",
+      "age": 39,
+      "height": "112",
+      "image": "messi.jpg"
+    }
+  ]
+}
